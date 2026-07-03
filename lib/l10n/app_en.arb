@@ -1,0 +1,7 @@
+{
+  "@@locale": "en",
+  "appTitle": "Water Management",
+  "@appTitle": {
+    "description": "The application title"
+  }
+}

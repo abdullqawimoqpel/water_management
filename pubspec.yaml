@@ -1,0 +1,46 @@
+name: water_management
+description: "Water Management ERP System — Production-grade utility management platform."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State management, routing & DI
+  get: ^4.6.6
+
+  # Functional programming (Either, Option)
+  dartz: ^0.10.1
+
+  # Value equality for domain entities
+  equatable: ^2.0.5
+
+  # Internationalization & date formatting
+  intl: ^0.19.0
+
+  # Network connectivity detection
+  connectivity_plus: ^6.0.5
+
+  # Structured logging
+  logger: ^2.4.0
+
+  # UUID generation for event IDs
+  uuid: ^4.5.1
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
