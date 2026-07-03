@@ -3,6 +3,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:get/get.dart';
 import 'package:water_management/app/routes/app_pages.dart';
+import 'package:water_management/app/routes/app_routes.dart';
 
 /// Root application widget.
 ///
@@ -47,7 +48,7 @@ class WaterManagementApp extends StatelessWidget {
       ),
 
       // ── Routing ────────────────────────────────────────────────────
-      initialRoute: AppPages.initialRoute,
+      initialRoute: AppRoutes.initial,
       getPages: AppPages.pages,
 
       // ── Default landing (until splash/auth is implemented) ─────────
